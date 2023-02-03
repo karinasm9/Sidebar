@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+  <div class="caixa">
+    <div class="sidebar">
+      
+      <div class="header">
+        <img class="logo" src="./images/logo.svg" alt="Logo">
+        <button id="menu-button" onclick="openCloseSidebar()">
+          <img src="./images/menu.svg" alt="Menu">
+        </button>
+      </div>
+
+      <div class="box">
+        <div class="search">
+          <button class="search-button" onclick="openCloseSidebar()">
+            <img src="./images/search.svg" alt="Lupa" class="lupa">
+          </button>
+            <input type="text" placeholder="Buscar">
+        </div>
+        
+        <div class="icone">
+          <img class="image" src="./images/grid.svg">
+          <p>Dashboad</p>
+        </div>
+        
+        <div class="icone">
+          <img class="image" src="./images/pet.svg">
+          <p>Pets</p>
+        </div>
+        
+        <div class="icone">
+          <img class="image" src="./images/user.svg">
+          <p>Clientes</p>
+        </div>
+        
+        <div class="icone"> 
+          <img class="image" src="./images/vet.svg">
+          <p>Vets</p>
+        </div>
+        
+        <div class="icone">
+          <img class="image" src="./images/settings.svg">
+          <p>Ajustes</p> 
+        </div>
+      </div>
+
+      <div class="footer">
+        <img class="avatar" src="./images/photo.jpg" alt="avatar">
+            <span>
+              <p>Eleanor Pena</p>
+              <p>Veterinária</p>
+            </span>
+
+            <button class="log-out" onclick="openCloseSidebar()">
+              <img src="./images/log-out.svg" alt="Log-out">
+            </button>
+      </div>
+    </div>
+    
+     <div class="titulo">
+      <h1>Dashboad</h1>
+    </div> 
+    
+  </div>
+  
+  <script src="./script.js"></script>
+  
+</body>
+</html>
